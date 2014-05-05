@@ -1,0 +1,47 @@
+html ,body{
+    width: 100%;
+    margin: 0px;
+    background-image: url('../img/food.png');
+    font-family: 'Raleway', sans-serif;
+}
+.header{
+    height: 100px;
+    background-color: rgba(52,52,52,.1);
+}
+
+.header_logo{
+    color: #3289a9;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-left: 30px;
+/*    float: left;*/
+}
+
+.content{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: rgba(52,52,52,.05);
+    width: 40%;
+    text-align: center;
+}
+
+.input{
+    padding: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    border: 1px solid #525252;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+button{
+    width: 84%;
+    border: 1px solid #525252;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #3393b7;
+    font-size: 15px;
+}
