@@ -17,11 +17,11 @@ if (isset($_POST['host']) and isset($_POST['username']) and isset($_POST['passwo
     include_once('./core/file.php');
     $fh = new filex();
     $m = "<?php\n";
-    $m = $m. '$GLOBALS["host_name"] = '.$name.';'."\n";
-    $m = $m. '$GLOBALS["sql_host"] = '.$host.';'."\n";
-    $m = $m. '$GLOBALS["sql_username"] = '.$username.';'."\n";
-    $m = $m. '$GLOBALS["sql_password"] = '.$password.';'."\n";
-    $m = $m. '$GLOBALS["sql_db"] = '.$db.';'."\n";
+    $m = $m. '$GLOBALS["host_name"] = "'.$name.'";'."\n";
+    $m = $m. '$GLOBALS["sql_host"] = "'.$host.'";'."\n";
+    $m = $m. '$GLOBALS["sql_username"] = "'.$username.'";'."\n";
+    $m = $m. '$GLOBALS["sql_password"] = "'.$password.'";'."\n";
+    $m = $m. '$GLOBALS["sql_db"] = "'.$db.'";'."\n";
     $fh -> write('conf/conf.php',$m);
     $fh -> write('conf/ins','yes');
     header('Location: ./');
