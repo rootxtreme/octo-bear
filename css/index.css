@@ -71,3 +71,11 @@ html, body{
 
 .btn_buy:active{
     background-color: #23a64b;
+}
+
+a{
+    color: #2a7fba;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}

@@ -1,5 +1,5 @@
 <?php
-include_once('../conf/conf.php');
+include_once('conf/conf.php');
 class db{
 	var $dbManager;
 
@@ -26,27 +26,5 @@ class db{
 			return $data;
 		}
 	}
-
-/*try to add this part at a later time :p*/
-//	public function insert($table,$data){
-//		$keys = array_keys($data);
-//		$col = ' ';
-//		$val = ' ';
-//
-//		for ($i=0; $i < sizeof($data); $i++) { 
-//			$keys[$i] = $this -> escape($keys[$i]);
-//			$data[$keys[$i]] = $this -> escape($data[$keys[$i]]);
-//			if ($i == sizeof($data)-1) {
-//				$col = $col . $keys[$i];
-//				$val = $val . "'".$data[$keys[$i]]."'";
-//			}else{
-//				$col = $col . $keys[$i].',';
-//				$val = $val . "'".$data[$keys[$i]]."'".',';
-//			}
-//			// print $val;
-//		}
-//		$sql = "insert into $table ($col) values($val);";
-//		print $sql;
-//	}
 
 }

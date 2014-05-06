@@ -25,48 +25,11 @@ include_once('conf/conf.php');
                     <?php print $GLOBALS["host_name"]; ?>
                 </div>
                 <div class="header_menu">
-                    login
+                    <a href="#">My Basket</a>
+                    <a href="#">Login/Signup</a>
                 </div>
             </div>
             <div class="content">
-                
-                <div class="item">
-                    <div class="item_header">
-                        <span class="item_img">
-                            <img src="img/food.jpg" class="item_img">
-                        </span>
-                        <span class="item_name">
-                            Chicken fried rice
-                        </span>
-                    </div>
-                    <div class="item_body">
-                        <div class="item_desc">
-                            this is just desc text about chicken fried rice. instead of this data will be fetched from database
-                            and displayed
-                        </div>
-                        <button class="btn_buy">Order for inr 20</button>
-                    </div>
-                </div>
-                
-                
-                <div class="item">
-                    <div class="item_header">
-                        <span class="item_img">
-                            <img src="img/food.jpg" class="item_img">
-                        </span>
-                        <span class="item_name">
-                            Chicken fried rice
-                        </span>
-                    </div>
-                    <div class="item_body">
-                        <div class="item_desc">
-                            this is just desc text about chicken fried rice. instead of this data will be fetched from database
-                            and displayed
-                        </div>
-                        <button class="btn_buy">Order for inr 20</button>
-                    </div>
-                </div>
-                
                 
                 <div class="item">
                     <div class="item_header">
