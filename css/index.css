@@ -21,3 +21,53 @@ html, body{
     float: right;
     padding-right: 40px;
     padding-top: 50px;
+}
+
+.content{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+/*    background-color: rgba(52,52,52,.05);*/
+    margin-top: 50px;
+/*    padding: 10px;*/
+}
+
+.item{
+    background-color: rgba(52,52,52,.05);
+    margin-bottom: 20px;
+    padding: 10px;
+    border-left: 2px solid #3289a9;
+}
+
+.item_header{
+    border-bottom: 1px dashed black;
+}
+.item_img{
+    width: 100px;
+    border-radius: 50px;
+    height: 100px;
+}
+.item_name{
+    font-size: 20px;
+    color: #e75858;
+}
+
+.item_desc{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn_buy{
+    border: 1px solid black;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #58e784;
+}
+
+.btn_buy:hover{
+    background-color: #47c66e;
+}
+
+.btn_buy:active{
+    background-color: #23a64b;
