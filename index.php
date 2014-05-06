@@ -29,26 +29,10 @@ include_once('conf/conf.php');
                     <a href="#">Login/Signup</a>
                 </div>
             </div>
-            <div class="content">
-                
-                <div class="item">
-                    <div class="item_header">
-                        <span class="item_img">
-                            <img src="img/food.jpg" class="item_img">
-                        </span>
-                        <span class="item_name">
-                            Chicken fried rice
-                        </span>
-                    </div>
-                    <div class="item_body">
-                        <div class="item_desc">
-                            this is just desc text about chicken fried rice. instead of this data will be fetched from database
-                            and displayed
-                        </div>
-                        <button class="btn_buy">Order for inr 20</button>
-                    </div>
-                </div>
-                
+            <div class="content" id="content">
+
             </div>
         </body>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/index.js"></script>
     </html>
